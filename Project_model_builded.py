@@ -12,7 +12,7 @@ import pickle
 import streamlit  as st 
 
 
-loading_model = pickle.load(open("C:/Users/Ullas Chandran/OneDrive/Desktop/Sample_working/trained_project_model.sav","rb"))
+loading_model = pickle.load(open("C:\Users\Ullas Chandran\OneDrive\Desktop\Sample_working\trained_project_model.sav","rb"))
 
 def check_thyroid(input_data):
   input_data = np.asarray(input_data)
